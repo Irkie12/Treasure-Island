@@ -24,11 +24,17 @@ if(choice_1 == "wait"):
     print("You waited for a boat but it never came.")
     extra=input("Should you swim or make a raft to get across? Type 'swim' to swim and type 'raft' to build a raft.")
 
-    if extra == 'swim':
-     print("You got attacked by an angry trout and drown. Game Over")
+    
+    
+    
+    
+    
+    
+if(extra == 'swim'):
+     print("You got attacked by an angry trout and drowned. Game Over")
      print("Better luck next time.")
           
-    exit(1)
+     exit(1)
 
 
 
@@ -149,6 +155,31 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 else:
     print("Trying to use another option are you? Game Over for trying to cheat.")
     exit(1)
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
