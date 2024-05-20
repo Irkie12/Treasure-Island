@@ -13,27 +13,25 @@ if(choice_1 == "swim"):
     print("Better luck next time.")
     exit(1)
 
-elif(choice_1 == "wait"):
-
-    print("You waited for a boat but it never came.")
-
-extra=input("Should you swim or make a raft to get across? Type 'swim' to swim and type 'raft' to build a raft.")
-
-
-
-
-if (extra == 'swim'):
-     print("You got attacked by an angry trout and drown. Game Over")
-     print("Better luck next time.")
-          
-     exit(1)
-
-elif (extra == 'raft'):
-     print("You start making a raft.")
-
 elif(choice_1 == "raft"):
 
     print("You start making a raft.")
+
+    
+
+if(choice_1 == "wait"):
+
+    print("You waited for a boat but it never came.")
+    extra=input("Should you swim or make a raft to get across? Type 'swim' to swim and type 'raft' to build a raft.")
+
+    if extra == 'swim':
+     print("You got attacked by an angry trout and drown. Game Over")
+     print("Better luck next time.")
+          
+    exit(1)
+
+
+
 
 
 
@@ -154,11 +152,3 @@ else:
 
 
 
-
-
-
-
-
-
-
-    
