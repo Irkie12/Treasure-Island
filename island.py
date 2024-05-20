@@ -1,6 +1,4 @@
 print("This code and storyline is written by Isaac Earl")
-
-
 print("Welcome to Treasure Island.")
 print("There is a treasure chest on the island in the lake, can you find it?") 
 
